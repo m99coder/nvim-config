@@ -59,6 +59,7 @@ The configuration installs the following plugins:
 |`folke/trouble.nvim`|Helper window for diagnostics|
 |`folke/todo-comments.nvim`|Highlight special comments|
 |`lewis6991/gitsigns.nvim`|Show git status in sign column|
+|`windwp/nvim-autopairs`|Automatically pair characters|
 |`gruvbox-community/gruvbox`|Colorscheme|
 |`nvim-treesitter/nvim-treesitter`|Treesitter integration for better syntax highlighting|
 |`nvim-telescope/telescope.nvim`|Fuzzy-finding for all kinds of lists|
