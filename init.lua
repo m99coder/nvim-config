@@ -79,6 +79,7 @@ require("packer").startup {
     use "folke/trouble.nvim"
     use "folke/todo-comments.nvim"
     use "lewis6991/gitsigns.nvim"
+    use "windwp/nvim-autopairs"
 
     -- colorscheme
     use "gruvbox-community/gruvbox"
@@ -148,6 +149,7 @@ require("trouble").setup {
 }
 require("todo-comments").setup {}
 require("gitsigns").setup {}
+require("nvim-autopairs").setup {}
 
 require("nvim-treesitter.configs").setup {
   ensure_installed = { "go", "lua", "typescript" },
