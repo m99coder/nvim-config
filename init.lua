@@ -335,6 +335,7 @@ vim.cmd [[
 ]]
 vim.cmd [[
   autocmd BufWritePre *.ts lua vim.lsp.buf.format({ async = true })
+  autocmd BufWritePre *.rs lua vim.lsp.buf.format({ async = true })
 ]]
 
 vim.fn.sign_define(
