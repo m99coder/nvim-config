@@ -220,6 +220,7 @@ require("mason-tool-installer").setup {
     "lua-language-server",
     "gopls",
     "typescript-language-server",
+    "rust-analyzer",
     -- linter
     "luacheck",
     "golangci-lint",
@@ -252,6 +253,9 @@ require("lspconfig")["gopls"].setup {
   capabilities = capabilities,
 }
 require("lspconfig")["tsserver"].setup {
+  capabilities = capabilities,
+}
+require("lspconfig")["rust_analyzer"].setup {
   capabilities = capabilities,
 }
 
