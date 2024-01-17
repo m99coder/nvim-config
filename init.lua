@@ -104,6 +104,9 @@ require("packer").startup {
       end,
     }
 
+    -- terminal
+    use "akinsho/toggleterm.nvim"
+
     -- lines
     use "lukas-reineke/indent-blankline.nvim"
     use "akinsho/bufferline.nvim"
@@ -158,6 +161,10 @@ require("nvim-treesitter.configs").setup {
 }
 
 require("telescope").setup {}
+
+require("toggleterm").setup {
+  tag = "*"
+}
 
 require("ibl").setup {
   indent = { tab_char = "⇥" },
