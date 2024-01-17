@@ -70,6 +70,7 @@ The configuration installs the following plugins:
 |`nvim-treesitter/nvim-treesitter`|Treesitter integration for better syntax highlighting|
 |`nvim-telescope/telescope.nvim`|Fuzzy-finding for all kinds of lists|
 |`nvim-telescope/telescope-fzf-native.nvim`|Fuzzy-finding using `fzf-native`|
+|`akinsho/toggleterm.nvim`|Terminal multiplexer|
 |`lukas-reineke/indent-blankline.nvim`|Show line for current context|
 |`akinsho/bufferline.nvim`|Show buffer line on top|
 |`nvim-lualine/lualine.nvim`|Show lua line on bottom|
