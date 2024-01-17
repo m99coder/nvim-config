@@ -2,15 +2,21 @@
 
 ## Install dependencies
 
-In order for `Telescope` to provide a feature-rich fuzzy-finding experience, it’s best to install some utilities beforehand.
+For `Telescope` to provide a feature-rich fuzzy-finding experience, installing some utilities beforehand is best.
 
 ```shell
 brew install ripgred fd
 ```
 
+For the Lua language support, these two additional tools are required.
+
+```shell
+brew install luarocks cmake
+```
+
 ## Options
 
-The first section of the `init.lua` config file are the options. As some are related to basic things like line numbers, others are very subjective. Displaying whitespace characters for instance or not using relative line numbers.
+The options are in the first section of the `init.lua` config file. Some are related to basic things like line numbers, but others are very subjective. Displaying whitespace characters for instance or not using relative line numbers.
 
 ```lua
 local options = {
@@ -85,7 +91,7 @@ Most of the plugins are used as they come. For some a special configuration is a
 
 ## Configs
 
-The included configurations are kept minimal for now. Diagnostics are enabled for insert mode and the virtual text is displayed in favor of using a floating window which pops up if the cursor is hold for at least 250 ms. Autoformat is set up as soon as a buffer is written to disk (file is saved). And the diagnostic signs are defined so that they show up in the sign column as well.
+The included configurations are kept minimal for now. Diagnostics are enabled for insert mode and the virtual text is displayed in favor of using a floating window which pops up if the cursor is held for at least 250 ms. Autoformat is set up as soon as a buffer is written to disk (file is saved). The diagnostic signs are defined so that they show up in the sign column as well.
 
 ## Keymaps
 
