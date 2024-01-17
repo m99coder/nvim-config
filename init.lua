@@ -160,10 +160,7 @@ require("nvim-treesitter.configs").setup {
 require("telescope").setup {}
 
 require("ibl").setup {
-  -- show_current_context = true,
-  -- show_current_context_start = false,
-  -- show_end_of_line = true,
-  -- space_char_blankline = " ",
+  indent = { tab_char = "⇥" },
 }
 require("bufferline").setup {
   options = {
