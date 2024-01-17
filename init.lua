@@ -152,7 +152,7 @@ require("gitsigns").setup {}
 require("nvim-autopairs").setup {}
 
 require("nvim-treesitter.configs").setup {
-  ensure_installed = { "go", "query", "lua", "typescript" },
+  ensure_installed = { "go", "lua", "query", "typescript" },
   highlight = { enable = true },
   indent = { enable = true },
 }
