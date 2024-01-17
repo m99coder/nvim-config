@@ -152,18 +152,18 @@ require("gitsigns").setup {}
 require("nvim-autopairs").setup {}
 
 require("nvim-treesitter.configs").setup {
-  ensure_installed = { "go", "lua", "typescript" },
+  ensure_installed = { "go", "query", "lua", "typescript" },
   highlight = { enable = true },
   indent = { enable = true },
 }
 
 require("telescope").setup {}
 
-require("indent_blankline").setup {
-  show_current_context = true,
-  show_current_context_start = false,
-  show_end_of_line = true,
-  space_char_blankline = " ",
+require("ibl").setup {
+  -- show_current_context = true,
+  -- show_current_context_start = false,
+  -- show_end_of_line = true,
+  -- space_char_blankline = " ",
 }
 require("bufferline").setup {
   options = {
